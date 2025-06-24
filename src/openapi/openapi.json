@@ -17,11 +17,11 @@
   },
   "servers": [
     {
-      "url": "http://localhost:8080/api/v1",
+      "url": "https://library-book-network-backend.onrender.com/api/v1",
       "description": "Local ENV"
     },
     {
-      "url": "https://library-book-network-backend.onrender.com/course",
+      "url": "https://library-book-network-backend.onrender.com/api/v1",
       "description": "PROD ENV"
     }
   ],
