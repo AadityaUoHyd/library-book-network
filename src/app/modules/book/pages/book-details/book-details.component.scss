@@ -16,3 +16,10 @@
   flex-shrink: 0; /* Prevents the pagination from shrinking */
   padding-bottom: 1rem; /* Optional: Adds some spacing at the bottom */
 }
+
+:host {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  min-height: 100%;
+}
