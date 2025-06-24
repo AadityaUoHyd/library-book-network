@@ -32,12 +32,15 @@ export class KeycloakService {
 
     const authenticated = await this._keycloak.init({
       onLoad: 'login-required',
+      redirectUri: environment.frontendUrl + window.location.pathname,
+      checkLoginIframe: false // Disable iframe to prevent loops
     });
 
     if (authenticated) {
       this._profile = (await this._keycloak.loadUserProfile()) as UserProfile;
       this._profile.token = this._keycloak.token || '';
       this._isInitialized = true;
+      window.history.replaceState({}, document.title, window.location.pathname);
     }
   }
 
