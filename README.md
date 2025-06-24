@@ -6,7 +6,9 @@ with checks for availability, book return functionality, and approval of book re
 security using JWT tokens and adheres to best practices in REST API design. The backend is built with Spring Boot
 3 and Spring Security 6, while the frontend is developed using Angular with Bootstrap for styling.
 
-- This repository holds only frontend code.
+- This repository holds only frontend code. Lets see how project look alike:
+
+![](https://raw.githubusercontent.com/AadityaUoHyd/library-book-network/refs/heads/main/Screenshot.png)
 
 ## How to run frontend
 - For Local
@@ -25,7 +27,7 @@ npm start
 ```
 
 ## Find Swagger ui :
-http://localhost:8080/api/v1/swagger-ui/index.html
+https://library-book-network-backend.onrender.com/api/v1/swagger-ui/index.html (prod)
 
 ## Pending task
 - Waiting list for borrowing books.
