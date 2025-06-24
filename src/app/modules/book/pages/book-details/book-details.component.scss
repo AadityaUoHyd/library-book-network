@@ -1,0 +1,18 @@
+.book-details-container {
+  min-height: 100vh; /* Ensures the container takes at least the full viewport height */
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-grow-1 {
+  flex-grow: 1; /* Makes the book details section take up available space */
+}
+
+.feedback-section {
+  flex-grow: 0; /* Feedback section only takes the space it needs */
+}
+
+.pagination-section {
+  flex-shrink: 0; /* Prevents the pagination from shrinking */
+  padding-bottom: 1rem; /* Optional: Adds some spacing at the bottom */
+}

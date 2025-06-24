@@ -1,0 +1,22 @@
+li > a {
+  &:hover {
+    background-color: greenyellow;
+    border-radius: 5px;
+    text-decoration: underline;
+  }
+  &.active {
+    color: purple;
+    border-radius: 5px;
+  }
+}
+
+
+.logo {
+  width: 220px;
+  height: 38px;
+}
+
+#background{
+     //background-color: #A9A9A9;
+}
+
